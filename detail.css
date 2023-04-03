@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+   background-image: url(hydra3.webp);
+    width: 100%;
+    height: 100vh;
+
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    color: aqua;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    line-height: 60px;
+    float: right;
+    text-align: center;
+    color: rgb(23, 219, 160);
+    font-size: 30px;
+    margin-top: 20px;
+}
+form{
+    border: 6px solid red;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+pre:hover{
+    color: red;
+}
+#submit:hover{
+    color: red;
+    background-color: black;
+}
+#reset:hover{
+    color: red;
+    background-color: black;
+}
